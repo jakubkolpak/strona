@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+<meta charset="utf-8">
+<title>Kołdysz - tabela</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000;
+    text-align: left;
+    margin: 40px;
+  }
+
+  table {
+    border-collapse: collapse;
+    border: 3px solid #00b300;
+    width: 55%;
+    max-width: 950px;
+    float: left;
+    margin-left: 50px;
+    box-shadow: 0 0 8px rgba(0, 128, 0, 0.2);
+  }
+
+  caption {
+    background-color: #663399;
+    color: #00bfff;
+    font-size: 1.6em;
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  thead th {
+    background-color: #001f4d;
+    color: white;
+    border: 2px solid #00b300;
+    padding: 8px;
+  }
+
+  tbody td {
+    border: 2px solid #00b300;
+    text-align: center;
+    padding: 8px;
+  }
+
+  tbody tr {
+    background-color: #ffcc00;
+  }
+
+  tbody tr:nth-child(1) td:nth-child(5),
+  tbody tr:nth-child(2) td:nth-child(5),
+  tbody tr:nth-child(3) td:nth-child(5),
+  tbody tr:nth-child(4) td:nth-child(5),
+  tbody tr:nth-child(5) td:nth-child(5),
+  tbody tr:nth-child(6) td:nth-child(5) {
+    background-color: #cc0000;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+
+  tfoot th {
+    background-color: #00b300;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    padding: 10px;
+  }
+
+  a {
+    color: blue;
+    text-decoration: underline;
+    font-weight: normal;
+    font-size: 1em;
+  }
+
+</style>
+</head>
+<body>
+
+  <p><a href="index.html">wróć</a></p>
+
+  <table>
+    <caption>Dane komputerowe Jakub Kołdysz 2Fg1</caption>
+    <thead>
+      <tr>
+        <th>Model karty graficznej</th>
+        <th>Taktowanie bazowe</th>
+        <th>Rozmiar pamięci</th>
+        <th>Szyna pamięci</th>
+        <th>Typ chłodzenia</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Radeon RX 5600</td><td>1375 MHz</td><td><i>6 GB GDDR6</i></td><td>192 bit</td><td>Aktywne</td></tr>
+      <tr><td>Radeon RX 5600 XT</td><td>1375 MHz</td><td><i>6 GB GDDR6</i></td><td>192-bit</td><td>Aktywne</td></tr>
+      <tr><td>Radeon RX 6600</td><td>1626 MHz</td><td><i>8 GB GDDR6</i></td><td>128 bit</td><td>Aktywne</td></tr>
+      <tr><td>Radeon RX 6600 XT</td><td>1968 MHz</td><td><i>8 GB GDDR6</i></td><td>128-bit</td><td>Aktywne</td></tr>
+      <tr><td><span style="color:#999;">Radeon RX 6700 XT</span></td><td>2321 MHz</td><td><i>12 GB GDDR6</i></td><td>192 bit</td><td>Aktywne</td></tr>
+      <tr><td><span style="color:#999;">Radeon RX 6800 XT</span></td><td>2015 MHz</td><td><i>16 GB GDDR6</i></td><td>256 bit</td><td>Aktywne</td></tr>
+    </tbody>
+    <tfoot>
+      <tr><th colspan="5">Dane Komputerowe</th></tr>
+    </tfoot>
+  </table>
+
+</body>
+</html>
